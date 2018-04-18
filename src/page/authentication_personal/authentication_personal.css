@@ -1,0 +1,115 @@
+/*
+* @Author: steven
+* @Date:   2017-10-10 23:37:48
+* @Last Modified by:   steven
+* @Last Modified time: 2017-10-21 10:40:32
+*/
+.personal{
+    width: 100%;
+    height: 1000px;
+    border: red solid 1px ;
+    position: relative;
+}
+.backdrop img{
+    width: 100%;
+    height: 480px;
+}
+.personal_header{
+    position: absolute;
+    top:350px;
+    left: 200px;
+    border: solid 5px #fff;
+    width: 160px;
+    height: 160px;
+    border-radius:160px; 
+}
+.personal_header img{
+   border-radius:160px;
+}
+.personal_second{
+    width: 1000px;
+    border: solid 1px red;
+    margin: 30px auto;
+    display: flex;
+}
+.personal_intro{
+    width: 645px;
+    border: solid 1px blue;
+    text-align: center;
+    position: relative;
+}
+.personal_name{
+    font-size:38px;
+}
+.personal_intro_datail{
+    width: 220px;
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    color: #b0b0b0;
+}
+.personal_address{
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-around;
+    color: #b0b0b0;
+    margin-top:12px;
+}
+.personal_price{
+    width: 320px;
+    height: 167px;
+    margin-left:30px;
+    background: #f2efee;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+.personal_price_header{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.personal_price_answer{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.personal_price_intr{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.personal_answer{
+    color: #ff8b62;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 38px;
+}
+.personal_ask{
+    position: absolute;
+    right:220px;
+    width: 281px;
+    height: 40px;
+    margin-top: -10px;
+    border-radius: 40px;
+    background: #ff9461;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.personal_ask:hover{
+    cursor: pointer;
+}
+
+.personal_intro .my_answer{
+    width: 80px;
+    font-size: 16px;
+    border: 1px solid #ff946e;
+    border-radius: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #ff946e;
+    background: #fff;
+    position: absolute;
+    top:220px;
+}

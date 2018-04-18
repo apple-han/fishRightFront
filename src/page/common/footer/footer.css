@@ -1,0 +1,22 @@
+/*
+* @Author: steven
+* @Date:   2017-09-24 16:36:13
+* @Last Modified by:   steven
+* @Last Modified time: 2017-09-24 16:36:19
+*/
+.footer{
+    padding-bottom: 10px;
+}
+.footer .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.footer .links .link{
+    padding: 0 10px;
+}
+.footer .copyright{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
